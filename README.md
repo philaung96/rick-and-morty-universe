@@ -52,7 +52,7 @@ GET: https://rickandmortyapi.com/api/character/2
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Also, define the the React components and the architectural design of your app.
 
 - [Wireframe]()
-- [React Architecture]()
+- [React Architecture](https://imgur.com/a/XX6T3Ax)
 
 ### MVP/PostMVP - 5min
 
