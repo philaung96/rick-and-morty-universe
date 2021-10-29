@@ -60,19 +60,18 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 
 - [React Architecture](https://imgur.com/a/XX6T3Ax)
 
-### MVP/PostMVP - 5min
+### MVP/PostMVP 
 
-The functionality will then be divided into two separate lists: MPV and PostMVP. Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.
+#### MVP
 
-#### MVP EXAMPLE
+- Get data properly from Rick and Morty API
+- All component pages show properly with data
+- Static Mr. Meeseeks to guide the site
+- Link components accordingly
 
-- Find and use external api
-- Render data on page
-- Allow user to interact with the page
+#### PostMVP
 
-#### PostMVP EXAMPLE
-
-- Add localStorage or firebase for storage
+- Dynamic Mr. Meeseeks
 
 ## Components
 
