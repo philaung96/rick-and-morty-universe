@@ -3,7 +3,7 @@
 ## Project Links
 
 - [Github Repo](https://github.com/philaung96/rick-and-morty-universe)
-- [Deployed Site]()
+- [Deployed Site](https://philaung96.github.io/rick-and-morty-universe/)
 
 ## Project Description
 
@@ -16,8 +16,6 @@ Here are the API used to build this project.
 | API                |             LINK             |
 | ------------------ | :--------------------------: |
 | Rick and Morty API | https://rickandmortyapi.com/ |
-
-|
 
 ```
 GET: https://rickandmortyapi.com/api/character/2
@@ -52,7 +50,14 @@ GET: https://rickandmortyapi.com/api/character/2
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Also, define the the React components and the architectural design of your app.
 
-- [Wireframe]()
+- [Landing Page](https://imgur.com/a/4GrYZUX)
+- [Locations-mobile](https://imgur.com/a/rd7WgpT)
+- [Locations-desktop](https://imgur.com/a/1e2Jcen)
+- [Location-mobile](https://imgur.com/a/b56ZC63)
+- [Location-desktop](https://imgur.com/a/gxmfUyv)
+
+## Reach Architecture Tree
+
 - [React Architecture](https://imgur.com/a/XX6T3Ax)
 
 ### MVP/PostMVP - 5min
@@ -85,7 +90,7 @@ Based on the initial logic defined in the previous sections try and breakdown th
 | Locations        |                      Collection all locations                      |
 | Location         |    Info about single location and contains residing characters     |
 | Character        |                      Info about the character                      |
-| Random Character |              Display/build team of random characters              |
+| Random Character |              Display/build team of random characters               |
 
 Time frames are also key in the development cycle. You have limited time to code all phases of the game. Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Also, put a gif at the top of your Readme before you pitch, and you'll get a panda prize.
 
