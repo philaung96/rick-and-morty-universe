@@ -1,0 +1,14 @@
+#locations {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.location {
+    margin: 5% 10%;
+    padding: 5%;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
