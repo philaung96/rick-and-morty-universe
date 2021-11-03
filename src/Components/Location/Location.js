@@ -13,12 +13,22 @@ const Location = () => {
 			.then((json) => setLocation(json));
 	}, [id]);
 
-	console.log(location);
+	// let residentJsx = [];
+	// if (location.residents) {
+	// 	residentJsx = location.residents.map((resident) => {});
+	// }
+
+	// console.log(location);
 
 	return (
-		<div className='location-info'>
-			{location && <p>Name: {location.name}</p>}
-		</div>
+		location && (
+			<div className='location-info'>
+				<h1>Location</h1>
+				<p>{location.name}</p>
+				<p>Type: {location.type}</p>
+				<p>Dimension: {location.dimension}</p>
+			</div>
+		)
 	);
 };
 

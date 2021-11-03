@@ -5,10 +5,14 @@ import { Link } from 'react-router-dom';
 const Locations = () => {
 	const [locations, setLocations] = useState([]);
 
-	useEffect(() => {
-		fetch('https://rickandmortyapi.com/api/location')
+	const makeApiCall = (url) => {
+		fetch(url)
 			.then((res) => res.json())
 			.then((json) => setLocations(json));
+	};
+
+	useEffect(() => {
+		makeApiCall('https://rickandmortyapi.com/api/location');
 	}, []);
 
 	let locationJsx = [];
@@ -16,16 +20,32 @@ const Locations = () => {
 		locationJsx = locations.results.map((location) => (
 			<div className='location' key={location.id}>
 				<Link to={'/locations/' + location.id}>
-					<p>{location.name}</p>
+					<p>{location.name.toUpperCase()}</p>
 				</Link>
 			</div>
 		));
 	}
 
+	const handleOnClickPrev = () => {
+		makeApiCall(locations.info.prev);
+	};
+
+	const handleOnClickNext = () => {
+		makeApiCall(locations.info.next);
+	};
+
 	return (
 		<section>
-			<h1>Locations</h1>
+			<h1>Explore Different Locations</h1>
 			<div id='locations'>{locationJsx}</div>
+			<div>
+				{locations.info && locations.info.prev && (
+					<button onClick={handleOnClickPrev}>prev</button>
+				)}
+				{locations.info && locations.info.next && (
+					<button onClick={handleOnClickNext}>next</button>
+				)}
+			</div>
 		</section>
 	);
 };
