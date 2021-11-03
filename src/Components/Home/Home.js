@@ -6,20 +6,34 @@ import Character from '../Character/Character';
 const Home = () => {
 	const [character, setCharacters] = useState('');
 
-	useEffect(() => {
-		const random = Math.ceil(Math.random() * 671);
-		fetch(`https://rickandmortyapi.com/api/character/${random}`)
+	const random = () => {
+		return Math.ceil(Math.random() * 671);
+	};
+
+	const url = `https://rickandmortyapi.com/api/character/${random()}`;
+
+	const makeApiCall = () => {
+		fetch(url)
 			.then((res) => res.json())
 			.then((json) => {
 				setCharacters(json);
 			});
+	};
+
+	useEffect(() => {
+		makeApiCall();
 	}, []);
+
+	const handleOnClick = () => {
+		makeApiCall();
+	};
 
 	return (
 		<Link to='/'>
 			<div id='home'>
 				<h1>Choose Your Rick and Morty Character</h1>
 				{character && <Character character={character} />}
+				<button onClick={handleOnClick}>get me next</button>
 			</div>
 		</Link>
 	);

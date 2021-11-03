@@ -7,7 +7,7 @@ a {
     color: black;
 }
 
-a:hover {
+a:hover,
+button:hover {
     cursor: pointer;
-    color: darkgray;
 }
