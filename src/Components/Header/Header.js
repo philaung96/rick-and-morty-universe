@@ -5,14 +5,14 @@ const Header = () => {
 	return (
 		<header>
 			<nav>
-				<Link to='/'>
+				<Link to='/rick-and-morty-universe'>
 					{/* <img src='../../Media/logo.png' alt='logo' /> */}
 					<h1>Home</h1>
 				</Link>
-				<Link to='/locations'>
+				<Link to='/rick-and-morty-universe/locations'>
 					<h1>Locations</h1>
 				</Link>
-				<Link to='/Characters'>
+				<Link to='/rick-and-morty-universe/Characters'>
 					<h1>Characters</h1>
 				</Link>
 			</nav>

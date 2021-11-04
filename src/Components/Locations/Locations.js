@@ -19,7 +19,7 @@ const Locations = () => {
 	if (locations.results) {
 		locationJsx = locations.results.map((location) => (
 			<div className='location' key={location.id}>
-				<Link to={'/locations/' + location.id}>
+				<Link to={'/rick-and-morty-universe/locations/' + location.id}>
 					<p>{location.name.toUpperCase()}</p>
 				</Link>
 			</div>
