@@ -7,5 +7,11 @@ header {
     font-family: 'Rick and Morty';
     background-color: #a6eee6ff;
     margin: 0;
-    padding: 5%;
+    padding: 20px;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
