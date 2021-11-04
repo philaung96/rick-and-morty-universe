@@ -31,7 +31,7 @@ const Home = () => {
 	return (
 		<Link to='/'>
 			<div id='home'>
-				<h1>Choose Your Rick and Morty Character</h1>
+				<h2>Choose Your Rick and Morty Character</h2>
 				{character && <Character character={character} />}
 				<button onClick={handleOnClick}>get me next</button>
 			</div>

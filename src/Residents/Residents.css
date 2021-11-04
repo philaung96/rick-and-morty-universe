@@ -1,0 +1,13 @@
+#residents {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#residents h3 {
+    font-size: 15px;
+}
+
+#residents img {
+    width: 50%;
+    height: 50%;
+}

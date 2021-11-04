@@ -1,11 +1,14 @@
 import './Location.css';
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router';
+import Residents from '../../Residents/Residents';
 import Character from '../Character/Character';
 
 const Location = () => {
-	const [location, setLocation] = useState({});
+	const [location, setLocation] = useState(null);
 	const { id } = useParams();
+	const [residents, setResidents] = useState([]);
+	let residentComp = null;
 
 	useEffect(() => {
 		fetch(`https://rickandmortyapi.com/api/location/${id}`)
@@ -13,12 +16,9 @@ const Location = () => {
 			.then((json) => setLocation(json));
 	}, [id]);
 
-	// let residentJsx = [];
-	// if (location.residents) {
-	// 	residentJsx = location.residents.map((resident) => {});
-	// }
-
-	// console.log(location);
+	if (location) {
+		residentComp = <Residents residentsUrl={location.residents} />;
+	}
 
 	return (
 		location && (
@@ -27,6 +27,7 @@ const Location = () => {
 				<p>{location.name}</p>
 				<p>Type: {location.type}</p>
 				<p>Dimension: {location.dimension}</p>
+				{residentComp}
 			</div>
 		)
 	);
