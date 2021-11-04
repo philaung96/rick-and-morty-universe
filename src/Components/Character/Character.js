@@ -2,7 +2,6 @@ import './Character.css';
 
 const Character = (props) => {
 	let name = '';
-	console.log(props);
 
 	if (props.character) name = props.character.name;
 	return (

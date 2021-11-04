@@ -30,11 +30,11 @@ const Home = () => {
 	};
 
 	return (
-		<Link to='/'>
+		<Link to='/rick-and-morty-universe'>
 			<div id='home'>
-				<h2>Choose Your Rick and Morty Character</h2>
+				<h2>Who are you in R&M</h2>
 				{character && <Character character={character} />}
-				<button onClick={handleOnClick}>get me next</button>
+				<button onClick={handleOnClick}>no not this</button>
 			</div>
 		</Link>
 	);
