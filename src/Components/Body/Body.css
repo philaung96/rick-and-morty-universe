@@ -1,0 +1,18 @@
+@media only screen and (min-width: 700px) {
+    #location-grid {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    #location-grid section {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    #location-grid aside {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+}

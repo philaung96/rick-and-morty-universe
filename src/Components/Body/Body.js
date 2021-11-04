@@ -9,8 +9,14 @@ const Body = () => {
 	return (
 		<main>
 			<Route path='/' exact component={Home} />
-			<Route path='/locations/:id' component={Location} />
-			<Route path='/locations' component={Locations} />
+			<div id='location-grid'>
+				<aside>
+					<Route path='/locations/:id' component={Location} />
+				</aside>
+				<section>
+					<Route path='/locations' component={Locations} />
+				</section>
+			</div>
 			<MrMeeseeks />
 		</main>
 	);
