@@ -25,7 +25,6 @@ const Residents = (props) => {
 		(residentJsx = residents.map((resident) => (
 			<Character character={resident} key={resident.name} />
 		)));
-	console.log('jsx', residentJsx);
 
 	return (
 		<>

@@ -24,7 +24,8 @@ const Home = () => {
 		makeApiCall();
 	}, []);
 
-	const handleOnClick = () => {
+	const handleOnClick = (e) => {
+		e.preventDefault();
 		makeApiCall();
 	};
 

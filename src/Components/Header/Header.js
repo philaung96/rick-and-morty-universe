@@ -6,7 +6,7 @@ const Header = () => {
 		<header>
 			<nav>
 				<Link to='/rick-and-morty-universe'>
-					{/* <img src='../../Media/logo.png' alt='logo' /> */}
+					{/* <img src='./logo.jpg' alt='logo' /> */}
 					<h1>Home</h1>
 				</Link>
 				<Link to='/rick-and-morty-universe/locations'>

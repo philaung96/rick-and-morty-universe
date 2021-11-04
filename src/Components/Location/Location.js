@@ -2,12 +2,10 @@ import './Location.css';
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router';
 import Residents from '../../Residents/Residents';
-import Character from '../Character/Character';
 
 const Location = () => {
 	const [location, setLocation] = useState(null);
 	const { id } = useParams();
-	const [residents, setResidents] = useState([]);
 	let residentComp = null;
 
 	useEffect(() => {

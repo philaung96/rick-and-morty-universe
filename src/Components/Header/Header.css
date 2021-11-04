@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Rick and Morty';
+    src: url('../../Media/get_schwifty.ttf');
+}
+
+header {
+    font-family: 'Rick and Morty';
+    background-color: #a6eee6ff;
+    margin: 0;
+    padding: 5%;
+}

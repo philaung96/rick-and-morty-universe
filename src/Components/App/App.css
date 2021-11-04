@@ -1,10 +1,17 @@
+body {
+    background-color: #fafd7cff;
+    color: #24325fff;
+    font-family: 'Chalkduster',
+        fantasy;
+}
+
 .App {
     text-align: center;
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: #24325fff
 }
 
 a:hover,
