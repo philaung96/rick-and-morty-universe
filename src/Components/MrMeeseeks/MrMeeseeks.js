@@ -1,7 +1,7 @@
 import './MrMeeseeks.css';
 
 const MrMeeseeks = () => {
-	return <h1>Existence is pain</h1>;
+	return <div id='mr-meeseeks'></div>;
 };
 
 export default MrMeeseeks;

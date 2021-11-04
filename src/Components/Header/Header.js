@@ -6,15 +6,16 @@ const Header = () => {
 		<header>
 			<nav>
 				<Link to='/rick-and-morty-universe'>
-					{/* <img src='./logo.jpg' alt='logo' /> */}
-					<h1>Home</h1>
+					<div id='home-nav'></div>
 				</Link>
-				<Link to='/rick-and-morty-universe/locations'>
-					<h1>Locations</h1>
-				</Link>
-				<Link to='/rick-and-morty-universe/characters'>
-					<h1>Characters</h1>
-				</Link>
+				<div>
+					<Link to='/rick-and-morty-universe/locations'>
+						<h1>Locations</h1>
+					</Link>
+					<Link to='/rick-and-morty-universe/characters'>
+						<h1>Characters</h1>
+					</Link>
+				</div>
 			</nav>
 		</header>
 	);

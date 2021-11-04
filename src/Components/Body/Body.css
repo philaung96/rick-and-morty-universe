@@ -1,3 +1,7 @@
+#location-grid {
+    margin: 50px 0;
+}
+
 @media only screen and (min-width: 700px) {
     #location-grid {
         display: grid;

@@ -1,0 +1,14 @@
+#mr-meeseeks {
+    background: url('../../Media/mr-meeseeks.jpeg') no-repeat;
+    background-size: contain;
+    width: 300px;
+    height: 180px;
+    margin: 50px auto;
+}
+
+@media only screen and (min-width: 700px) {
+    #mr-meeseeks {
+        width: 450px;
+        height: 250px;
+    }
+}

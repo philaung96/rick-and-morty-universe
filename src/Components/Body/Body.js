@@ -30,7 +30,7 @@ const Body = () => {
 				exact
 				component={Characters}
 			/>
-			<MrMeeseeks />
+			<Route path='/rick-and-morty-universe' exact component={MrMeeseeks} />
 		</main>
 	);
 };
