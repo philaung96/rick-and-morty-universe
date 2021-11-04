@@ -7,7 +7,7 @@ const Home = () => {
 	const [character, setCharacters] = useState('');
 
 	const random = () => {
-		return Math.ceil(Math.random() * 671);
+		return Math.ceil(Math.random() * 826);
 	};
 
 	const url = `https://rickandmortyapi.com/api/character/${random()}`;

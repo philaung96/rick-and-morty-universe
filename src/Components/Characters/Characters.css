@@ -1,0 +1,21 @@
+#characters {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#characters .character img {
+    height: 50%;
+    width: 50%;
+}
+
+@media only screen and (min-width: 700px) {
+    #characters {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #characters {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}

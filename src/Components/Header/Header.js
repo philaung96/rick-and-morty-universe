@@ -12,7 +12,7 @@ const Header = () => {
 				<Link to='/rick-and-morty-universe/locations'>
 					<h1>Locations</h1>
 				</Link>
-				<Link to='/rick-and-morty-universe/Characters'>
+				<Link to='/rick-and-morty-universe/characters'>
 					<h1>Characters</h1>
 				</Link>
 			</nav>
