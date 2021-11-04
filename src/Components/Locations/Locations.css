@@ -11,3 +11,14 @@
     justify-content: center;
     align-items: center;
 }
+
+#locations-buttons button {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #69c8ecff;
+    color: #24325fff;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Rick and Morty';
+}

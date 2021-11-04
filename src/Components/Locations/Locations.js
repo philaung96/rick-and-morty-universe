@@ -38,12 +38,12 @@ const Locations = () => {
 		<section>
 			<h1>Explore Different Locations</h1>
 			<div id='locations'>{locationJsx}</div>
-			<div>
+			<div id='locations-buttons'>
 				{locations.info && locations.info.prev && (
-					<button onClick={handleOnClickPrev}>prev</button>
+					<button onClick={handleOnClickPrev}>&lt; prev</button>
 				)}
 				{locations.info && locations.info.next && (
-					<button onClick={handleOnClickNext}>next</button>
+					<button onClick={handleOnClickNext}>next &gt;</button>
 				)}
 			</div>
 		</section>

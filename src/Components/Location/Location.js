@@ -22,9 +22,17 @@ const Location = () => {
 		location && (
 			<div className='location-info'>
 				<h1>Location</h1>
-				<p>{location.name}</p>
-				<p>Type: {location.type}</p>
-				<p>Dimension: {location.dimension}</p>
+				<p>
+					<strong>{location.name}</strong>
+				</p>
+				<p>
+					<strong>Type: </strong>
+					{location.type}
+				</p>
+				<p>
+					<strong>Dimension: </strong>
+					{location.dimension}
+				</p>
 				{residentComp}
 			</div>
 		)
