@@ -3,7 +3,6 @@ import { Route } from 'react-router';
 import Home from '../Home/Home';
 import Locations from '../Locations/Locations';
 import Location from '../Location/Location';
-import Character from '../Character/Character';
 import MrMeeseeks from '../MrMeeseeks/MrMeeseeks';
 import Characters from '../Characters/Characters';
 
