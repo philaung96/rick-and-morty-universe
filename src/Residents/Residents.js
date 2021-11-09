@@ -1,6 +1,6 @@
 import './Residents.css';
 import { useEffect, useState } from 'react';
-import Character from '../Components/Character/Character';
+import Character from '../Components/Characters/Character/Character';
 
 const Residents = (props) => {
 	const [residents, setResidents] = useState([]);

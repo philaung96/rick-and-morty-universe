@@ -1,6 +1,6 @@
 import './Characters.css';
 import { useEffect, useState } from 'react';
-import Character from '../Character/Character';
+import Character from './Character/Character';
 
 const Characters = () => {
 	const [characters, setCharacters] = useState([]);
@@ -31,7 +31,7 @@ const Characters = () => {
 	};
 
 	return (
-		<section>
+		<>
 			<h1>Characters</h1>
 			<div id='characters'>{charactersJsx}</div>
 			<div id='characters-buttons'>
@@ -42,7 +42,7 @@ const Characters = () => {
 					<button onClick={handleOnClickNext}>next &gt;</button>
 				)}
 			</div>
-		</section>
+		</>
 	);
 };
 

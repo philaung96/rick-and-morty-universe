@@ -35,7 +35,7 @@ const Locations = () => {
 	};
 
 	return (
-		<section>
+		<>
 			<h1>Explore Different Locations</h1>
 			<div id='locations'>{locationJsx}</div>
 			<div id='locations-buttons'>
@@ -46,7 +46,7 @@ const Locations = () => {
 					<button onClick={handleOnClickNext}>next &gt;</button>
 				)}
 			</div>
-		</section>
+		</>
 	);
 };
 

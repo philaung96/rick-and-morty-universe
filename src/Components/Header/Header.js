@@ -9,11 +9,14 @@ const Header = () => {
 					<div id='home-nav'></div>
 				</Link>
 				<div>
+					<Link to='/rick-and-morty-universe/characters'>
+						<h1>Characters</h1>
+					</Link>
 					<Link to='/rick-and-morty-universe/locations'>
 						<h1>Locations</h1>
 					</Link>
-					<Link to='/rick-and-morty-universe/characters'>
-						<h1>Characters</h1>
+					<Link to='/rick-and-morty-universe/episodes'>
+						<h1>Episodes</h1>
 					</Link>
 				</div>
 			</nav>

@@ -1,7 +1,7 @@
 import './Home.css';
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import Character from '../Character/Character';
+import Character from '../Characters/Character/Character';
 
 const Home = () => {
 	const [character, setCharacters] = useState('');
