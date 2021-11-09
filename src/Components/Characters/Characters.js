@@ -1,9 +1,11 @@
 import './Characters.css';
 import { useEffect, useState } from 'react';
 import Character from './Character/Character';
+import { useRef } from 'react/cjs/react.development';
 
 const Characters = () => {
 	const [characters, setCharacters] = useState([]);
+	const inputName = useRef(null);
 
 	const makeApiCall = (url) => {
 		fetch(url)
@@ -30,9 +32,21 @@ const Characters = () => {
 		makeApiCall(characters.info.next);
 	};
 
+	const handleOnSubmit = (e) => {
+		e.preventDefault();
+		makeApiCall(
+			`https://rickandmortyapi.com/api/character/?name=${inputName.current.value}`
+		);
+		inputName.current.value = '';
+	};
+
 	return (
 		<>
 			<h1>Characters</h1>
+			<form onSubmit={handleOnSubmit}>
+				<input ref={inputName} type='text' placeholder='Rick Sanchez'></input>
+				<button type='submit'>Search</button>
+			</form>
 			<div id='characters'>{charactersJsx}</div>
 			<div id='characters-buttons'>
 				{characters.info && characters.info.prev && (
