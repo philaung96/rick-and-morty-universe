@@ -1,9 +1,11 @@
 import './Locations.css';
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { useRef } from 'react/cjs/react.development';
 
 const Locations = () => {
 	const [locations, setLocations] = useState([]);
+	const inputName = useRef(null);
 
 	const makeApiCall = (url) => {
 		fetch(url)
@@ -34,9 +36,21 @@ const Locations = () => {
 		makeApiCall(locations.info.next);
 	};
 
+	const handleOnSubmit = (e) => {
+		e.preventDefault();
+		makeApiCall(
+			`https://rickandmortyapi.com/api/location/?name=${inputName.current.value}`
+		);
+		inputName.current.value = '';
+	};
+
 	return (
 		<>
 			<h1>Explore Different Locations</h1>
+			<form onSubmit={handleOnSubmit}>
+				<input ref={inputName} type='text' placeholder='EARTH (D-99)'></input>
+				<button type='submit'>Search</button>
+			</form>
 			<div id='locations'>{locationJsx}</div>
 			<div id='locations-buttons'>
 				{locations.info && locations.info.prev && (
