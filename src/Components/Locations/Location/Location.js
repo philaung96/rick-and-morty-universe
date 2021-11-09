@@ -1,7 +1,7 @@
 import './Location.css';
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router';
-import Residents from '../../Residents/Residents';
+import Residents from './Residents/Residents';
 
 const Location = () => {
 	const [location, setLocation] = useState(null);

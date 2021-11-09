@@ -19,9 +19,18 @@ button:hover {
     cursor: pointer;
 }
 
+form input {
+    padding: 10px;
+    background-color: #69c8ecff;
+    color: #24325fff;
+    font-family: 'Rick and Morty';
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
 button {
     margin: 10px;
-    padding: 5px;
+    padding: 7px;
     border-radius: 10px;
     background-color: #69c8ecff;
     color: #24325fff;
