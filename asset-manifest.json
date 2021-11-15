@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/rick-and-morty-universe/static/css/main.562eae6a.chunk.css",
-    "main.js": "/rick-and-morty-universe/static/js/main.c6bf2a94.chunk.js",
-    "main.js.map": "/rick-and-morty-universe/static/js/main.c6bf2a94.chunk.js.map",
+    "main.css": "/rick-and-morty-universe/static/css/main.dd8b5b48.chunk.css",
+    "main.js": "/rick-and-morty-universe/static/js/main.55a1dfbb.chunk.js",
+    "main.js.map": "/rick-and-morty-universe/static/js/main.55a1dfbb.chunk.js.map",
     "runtime-main.js": "/rick-and-morty-universe/static/js/runtime-main.8e8aedcb.js",
     "runtime-main.js.map": "/rick-and-morty-universe/static/js/runtime-main.8e8aedcb.js.map",
-    "static/js/2.125893f6.chunk.js": "/rick-and-morty-universe/static/js/2.125893f6.chunk.js",
-    "static/js/2.125893f6.chunk.js.map": "/rick-and-morty-universe/static/js/2.125893f6.chunk.js.map",
+    "static/js/2.e816b6f1.chunk.js": "/rick-and-morty-universe/static/js/2.e816b6f1.chunk.js",
+    "static/js/2.e816b6f1.chunk.js.map": "/rick-and-morty-universe/static/js/2.e816b6f1.chunk.js.map",
     "index.html": "/rick-and-morty-universe/index.html",
-    "static/css/main.562eae6a.chunk.css.map": "/rick-and-morty-universe/static/css/main.562eae6a.chunk.css.map",
-    "static/js/2.125893f6.chunk.js.LICENSE.txt": "/rick-and-morty-universe/static/js/2.125893f6.chunk.js.LICENSE.txt",
+    "static/css/main.dd8b5b48.chunk.css.map": "/rick-and-morty-universe/static/css/main.dd8b5b48.chunk.css.map",
+    "static/js/2.e816b6f1.chunk.js.LICENSE.txt": "/rick-and-morty-universe/static/js/2.e816b6f1.chunk.js.LICENSE.txt",
     "static/media/Header.css": "/rick-and-morty-universe/static/media/home.f51ed8bb.png",
     "static/media/MrMeeseeks.css": "/rick-and-morty-universe/static/media/mr-meeseeks.57c714f2.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.8e8aedcb.js",
-    "static/js/2.125893f6.chunk.js",
-    "static/css/main.562eae6a.chunk.css",
-    "static/js/main.c6bf2a94.chunk.js"
+    "static/js/2.e816b6f1.chunk.js",
+    "static/css/main.dd8b5b48.chunk.css",
+    "static/js/main.55a1dfbb.chunk.js"
   ]
 }
