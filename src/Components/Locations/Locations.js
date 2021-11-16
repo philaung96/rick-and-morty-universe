@@ -1,7 +1,6 @@
 import './Locations.css';
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
-import { useRef } from 'react/cjs/react.development';
 
 const Locations = () => {
 	const [locations, setLocations] = useState([]);

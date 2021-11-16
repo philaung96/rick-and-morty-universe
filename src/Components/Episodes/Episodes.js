@@ -1,7 +1,6 @@
 import './Episodes.css';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import Episode from './Episode/Episode';
-import { useRef } from 'react/cjs/react.development';
 
 const Episodes = () => {
 	const [episodes, setEpisodes] = useState([]);

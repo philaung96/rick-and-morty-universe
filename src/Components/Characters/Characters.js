@@ -1,7 +1,6 @@
 import './Characters.css';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import Character from './Character/Character';
-import { useRef } from 'react/cjs/react.development';
 
 const Characters = () => {
 	const [characters, setCharacters] = useState([]);

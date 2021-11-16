@@ -2,7 +2,7 @@ import './Body.css';
 import { Route } from 'react-router';
 import Home from '../Home/Home';
 import Locations from '../Locations/Locations';
-import Location from '../Location/Location';
+import Location from '../Locations/Location/Location';
 import MrMeeseeks from '../MrMeeseeks/MrMeeseeks';
 import Characters from '../Characters/Characters';
 import Episodes from '../Episodes/Episodes';

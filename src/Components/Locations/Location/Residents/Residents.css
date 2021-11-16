@@ -7,8 +7,8 @@
     font-size: 10px;
 }
 
-#residents img {
-    width: 70%;
-    height: 70%;
+#residents .character img {
+    width: 50%;
+    height: 50%;
     margin: 10px;
 }
